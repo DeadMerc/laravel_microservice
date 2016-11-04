@@ -9,22 +9,12 @@ use Validator;
 
 class UsersController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function index() {
         return $this->helpReturn(
             DB::table('users')->simplePaginate(15)
         );
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function create() {
 
     }
@@ -115,7 +105,7 @@ class UsersController extends Controller
     /**
      * @api {delete} /v1/users/:id updateUser
      * @apiVersion 0.1.0
-     * @apiName updateUser
+     * @apiName deleteUser
      * @apiGroup Users
      *
      *

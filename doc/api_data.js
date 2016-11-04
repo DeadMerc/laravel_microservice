@@ -1,5 +1,20 @@
 define({ "api": [
   {
+    "type": "delete",
+    "url": "/v1/users/:id",
+    "title": "updateUser",
+    "version": "0.1.0",
+    "name": "deleteUser",
+    "group": "Users",
+    "filename": "app/Http/Controllers/UsersController.php",
+    "groupTitle": "Users",
+    "sampleRequest": [
+      {
+        "url": "localhost:8000/api/v1/users/:id"
+      }
+    ]
+  },
+  {
     "type": "get",
     "url": "/v1/users/:id",
     "title": "showUser",
@@ -117,21 +132,6 @@ define({ "api": [
         ]
       }
     },
-    "filename": "app/Http/Controllers/UsersController.php",
-    "groupTitle": "Users",
-    "sampleRequest": [
-      {
-        "url": "localhost:8000/api/v1/users/:id"
-      }
-    ]
-  },
-  {
-    "type": "delete",
-    "url": "/v1/users/:id",
-    "title": "updateUser",
-    "version": "0.1.0",
-    "name": "updateUser",
-    "group": "Users",
     "filename": "app/Http/Controllers/UsersController.php",
     "groupTitle": "Users",
     "sampleRequest": [
