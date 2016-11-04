@@ -1,0 +1,8 @@
+{
+  "name": "Test app",
+  "version": "0.1.0",
+  "description": "RestFull api docs",
+  "title": "Api docs",
+  "url": "localhost:8000/api",
+  "sampleUrl": "localhost:8000/api"
+}
